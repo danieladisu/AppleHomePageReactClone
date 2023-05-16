@@ -1,0 +1,80 @@
+.outerWrapper {
+    padding: 20px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgba(1, 9, 85, 0.249);
+    border-radius: 20px;
+    margin-top: 50px !important;
+    padding: 50px;
+    display: block;
+
+
+}
+
+.outerWrapper div {
+    /* border-left: 1px solid black; */
+    /* border-right: 1px solid black; */
+    padding: 20px;
+
+
+}
+
+.form1,
+.form2,
+.form3 {
+    padding: 10px;
+    border: 1px solid rgb(3, 144, 27, 0.608);
+    border-top: 0;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 20px;
+
+}
+
+
+
+/* .outerWrapper div:last-child {
+    border-right: 0px;
+} */
+/* .outerWrapper div:first-child {
+    border-left: 0px;
+} */
+
+input {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+textarea {
+
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(3, 144, 27, 0.608);
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+
+.select {
+    display: inline-flex !important;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+
+    /* border: 1px solid gold; */
+
+}
